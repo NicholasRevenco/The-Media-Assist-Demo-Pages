@@ -1,0 +1,415 @@
+/* This CSS file is for the Services section */
+/* CSS and HTML came from: https://codepen.io/woranov/pen/NRqLWK/ */
+
+#minHeight550 {
+	min-height: 550px;
+}
+
+#goalText {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#goalBelow {
+	margin-top: 50px;
+}
+
+#header {
+	position:relative;
+	text-align:center;
+	background: linear-gradient(90deg, rgba(11, 1, 123) 0%, rgb(135, 85, 243) 100%);
+	color:white;
+	height: 100%;
+}
+
+@keyframes rotateAngle {
+	0% {
+		transform: rotateY(0deg) rotateX(10deg);
+		animation-timing-function: cubic-bezier(0.61, 1, 0.88, 1);
+   }
+	25% {
+		transform: rotateY(25deg) rotateX(10deg);
+   }
+	50% {
+		transform: rotateY(0deg) rotateX(10deg);
+		animation-timing-function: cubic-bezier(0.61, 1, 0.88, 1);
+   }
+	75% {
+		transform: rotateY(-25deg) rotateX(10deg);
+   }
+	100% {
+		transform: rotateY(0deg) rotateX(10deg);
+   }
+}
+
+.carouselStyling {
+	margin-top: 50px;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.carouselCaption {
+	background-color: white;
+	color: black !important;
+	border-radius: 25px;
+	opacity: .8;
+	padding: 15px;
+	margin-bottom: -22vh;
+}
+
+.faqMarginIndex {
+	margin-top: 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.carouselPadding {
+	padding-bottom: 200px;
+}
+
+#marginBottomFiftyPx {
+	margin-bottom: 50px;
+}
+
+.fontThirty {
+	font-size: 30px;
+}
+
+#paddingBottomFiftypx {
+	padding-bottom: 50px;
+}
+
+.thirdSectionImage {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.marginSeven {
+	margin-right: 7%;
+	margin-left: 7%;
+}
+
+.dollarSmall {
+	font-size: 10px;
+}
+
+.servicesText {
+	margin-top: 30%;
+}
+
+.lightBlueBg {
+	background-color: rgb(206, 239, 250);
+	padding-right: 50px;
+	padding-left: 50px;
+  }
+  
+  .lightRedBg {
+	background-color: rgb(212, 206, 2507);
+	padding-right: 50px;
+	padding-left: 50px;
+  }
+
+.goalImage {
+	min-width: 400px;
+	width: 50%;
+	border: 4mm solid rgba(44, 90, 198, 1);
+	transform: rotatex(10deg);
+	animation: rotateAngle 3s linear infinite;
+	box-shadow: 10px 5px rgb(28, 28, 28);}
+
+.carouselImageStyling {
+	width: 75%;
+	min-width: 400px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.pinterestLogo {
+	width: 50% !important;
+}
+
+.tabs {
+	 left: 50%;
+	 transform: translateX(-50%);
+	 position: relative;
+	 background: white;
+	 padding: 50px;
+	 padding-bottom: 80px;
+	 height: 250px;
+	 border-radius: 5px;
+	 min-width: 240px;
+}
+ .tabs input[name="tab-control"] {
+	 display: none;
+}
+ .tabs .content section h2, .tabs ul li label {
+	 font-weight: bold;
+	 font-size: 18px;
+	 color: black;
+}
+ .tabs ul {
+	 list-style-type: none;
+	 padding-left: 0;
+	 display: flex;
+	 flex-direction: row;
+	 margin-bottom: 10px;
+	 justify-content: space-between;
+	 align-items: flex-end;
+	 flex-wrap: wrap;
+}
+ .tabs ul li {
+	 box-sizing: border-box;
+	 flex: 1;
+	 width: 25%;
+	 padding: 0 10px;
+	 text-align: center;
+}
+ .tabs ul li label {
+	 transition: all 0.3s ease-in-out;
+	 color: rgb(120, 120, 120);
+	 padding: 5px auto;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+	 display: block;
+	 cursor: pointer;
+	 transition: all 0.2s ease-in-out;
+	 white-space: nowrap;
+	 -webkit-touch-callout: none;
+}
+ .tabs ul li label br {
+	 display: none;
+}
+ .tabs ul li label svg {
+	 fill: rgb(127, 131, 136);
+	 height: 1.2em;
+	 vertical-align: bottom;
+	 margin-right: 0.2em;
+	 transition: all 0.2s ease-in-out;
+}
+ .tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
+	 outline: 0;
+	 color: rgb(80, 80, 80);
+}
+ .tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
+	 fill: rgb(150, 150, 150);
+}
+ .tabs .slider {
+	 position: relative;
+	 width: 25%;
+	 transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
+}
+ .tabs .slider .indicator {
+	 position: relative;
+	 width: 50px;
+	 max-width: 100%;
+	 margin: 0 auto;
+	 height: 4px;
+	 background: black;
+	 border-radius: 1px;
+}
+ .tabs .content {
+	 margin-top: 30px;
+}
+ .tabs .content section {
+	 display: none;
+	 animation-name: content;
+	 animation-direction: normal;
+	 animation-duration: 0.3s;
+	 animation-timing-function: ease-in-out;
+	 animation-iteration-count: 1;
+	 line-height: 1.4;
+}
+ .tabs .content section h2 {
+	 color: black;
+	 display: none;
+}
+ .tabs .content section h2::after {
+	 content: "";
+	 position: relative;
+	 display: block;
+	 width: 30px;
+	 height: 3px;
+	 background: black;
+	 margin-top: 5px;
+	 left: 1px;
+}
+ .tabs input[name="tab-control"]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
+	 cursor: default;
+	 color: black;
+}
+ .tabs input[name="tab-control"]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label svg {
+	 fill: black;
+}
+ @media (max-width: 600px) {
+	 .tabs input[name="tab-control"]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
+		 background: rgba(0, 0, 0, 0.08);
+	}
+}
+ .tabs input[name="tab-control"]:nth-of-type(1):checked ~ .slider {
+	 transform: translateX(0%);
+}
+ .tabs input[name="tab-control"]:nth-of-type(1):checked ~ .content > section:nth-child(1) {
+	 display: block;
+}
+ .tabs input[name="tab-control"]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
+	 cursor: default;
+	 color: black;
+}
+ .tabs input[name="tab-control"]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label svg {
+	 fill: black;
+}
+ @media (max-width: 600px) {
+	 .tabs input[name="tab-control"]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
+		 background: rgba(0, 0, 0, 0.08);
+	}
+}
+ .tabs input[name="tab-control"]:nth-of-type(2):checked ~ .slider {
+	 transform: translateX(100%);
+}
+ .tabs input[name="tab-control"]:nth-of-type(2):checked ~ .content > section:nth-child(2) {
+	 display: block;
+}
+ .tabs input[name="tab-control"]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
+	 cursor: default;
+	 color: black;
+}
+ .tabs input[name="tab-control"]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label svg {
+	 fill: black;
+}
+ @media (max-width: 600px) {
+	 .tabs input[name="tab-control"]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
+		 background: rgba(0, 0, 0, 0.08);
+	}
+}
+ .tabs input[name="tab-control"]:nth-of-type(3):checked ~ .slider {
+	 transform: translateX(200%);
+}
+ .tabs input[name="tab-control"]:nth-of-type(3):checked ~ .content > section:nth-child(3) {
+	 display: block;
+}
+ .tabs input[name="tab-control"]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
+	 cursor: default;
+	 color: black;
+}
+ .tabs input[name="tab-control"]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label svg {
+	 fill: black;
+}
+ @media (max-width: 600px) {
+	 .tabs input[name="tab-control"]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
+		 background: rgba(0, 0, 0, 0.08);
+	}
+}
+ .tabs input[name="tab-control"]:nth-of-type(4):checked ~ .slider {
+	 transform: translateX(300%);
+}
+ .tabs input[name="tab-control"]:nth-of-type(4):checked ~ .content > section:nth-child(4) {
+	 display: block;
+}
+ @keyframes content {
+	 from {
+		 opacity: 0;
+		 transform: translateY(5%);
+	}
+	 to {
+		 opacity: 1;
+		 transform: translateY(0%);
+	}
+}
+ @media (max-width: 1000px) {
+	 .tabs ul li label {
+		 white-space: initial;
+	}
+	 .tabs ul li label br {
+		 display: initial;
+	}
+	 .tabs ul li label svg {
+		 height: 1.5em;
+	}
+}
+ @media (max-width: 600px) {
+	 .tabs ul li label {
+		 padding: 5px;
+		 border-radius: 5px;
+	}
+	 .tabs ul li label span {
+		 display: none;
+	}
+	 .tabs .slider {
+		 display: none;
+	}
+	 .tabs .content {
+		 margin-top: 20px;
+	}
+	 .tabs .content section h2 {
+		 display: block;
+	}
+}
+
+/* This CSS file is for the We Offer Services On section in index.html section */
+.socialmedia_content {
+	border-color: rgb(34, 37, 41) !important;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	transition: 200ms !important;
+}
+
+
+.socialmedia_content:hover {
+	background-color: rgb(127, 131, 136) !important;
+	transition: 700ms;
+  }
+  
+  .socialmedia_rightleft {
+	height: 100px;
+	margin-bottom: 20px;
+	animation-name: rightleft;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+  }
+  
+  @keyframes rightleft {
+	0% {margin-left: -50px;}
+	50% {margin-left: 50px;}
+	100% {margin-left: -50px;}
+  }
+  
+  .socialmedia_leftright {
+	height: 100px;
+	margin-bottom: 20px;
+	animation-name: leftright;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+  }
+  
+  @keyframes leftright {
+	0% {margin-right: -50px;}
+	50% {margin-right: 50px;}
+	100% {margin-right: -50px;}
+  }
+  
+  .socialmedia_updown {
+	height: 100px;
+	margin-bottom: 20px;
+	animation-name: updown;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	margin-top: 10%;
+  }
+  
+  @keyframes updown {
+	0% {padding-top: -50px;}
+	50% {padding-top: 50px;}
+	100% {padding-top: -50px;}
+  }
+
+
+.borderNone {
+	border: none !important;
+}

@@ -1,0 +1,272 @@
+/* This CSS file is for regular CSS additions */
+
+.whiteHr {
+  color: white;
+}
+
+.blackHr {
+  color: rgb(34, 37, 41);
+}
+
+.centerText {
+  text-align: center;
+}
+
+.centerContent {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerUpDownContent {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.widthHundredPx {
+	width: 70px !important;
+}
+
+.widthHundredCent {
+	width: 90%;
+}
+
+.fontSizeTenPx {
+  font-size: 10px;
+}
+
+.footerStyling {
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+
+.offersHr {
+  color: white;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.faqPlus {
+  position: absolute;
+  right: 16px;
+}
+
+.fontTwentyPx {
+  font-size: 20px;
+}
+
+.faqBorder {
+  border-color: rgb(33, 36, 40) !important;
+}
+
+.faqPadding {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.faqMargin {
+  margin-top: 17%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navCollapseStyling {
+  background-color: rgb(250, 250, 250) !important;
+  width: 100% !important;
+  margin-top: 85px !important;
+}
+
+/* Navbar links */
+
+.navbar_link_1::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_1:hover::after {
+  width: 100%;
+}
+
+.navbar_link_1.active::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_1.active:hover::after {
+  width: 100%;
+}
+
+.navbar_link_1::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_1:hover::after {
+  width: 100%;
+}
+
+.navbar_link_2::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_2:hover::after {
+  width: 100%;
+}
+
+.navbar_link_2.active::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_2.active:hover::after {
+  width: 100%;
+}
+
+.navbar_link_3::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_3:hover::after {
+  width: 100%;
+}
+
+.navbar_link_3.active::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_3.active:hover::after {
+  width: 100%;
+}
+
+.navbar_link_collapsed::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_collapsed:hover::after {
+  width: 100%;
+}
+
+/* Non-navbar links */
+
+.link {
+  text-decoration: none;
+}
+
+.link::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.link_dark {
+  text-decoration: none;
+}
+
+.link_dark:hover::after {
+  width: 115px;
+}
+
+.link_dark::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.link:hover::after {
+  width: 140px;
+}
+
+/* For the Services section in site */
+
+.planning_options_blue {
+  border-color: white !important;
+  padding: 10px;
+  background-color: rgb(255, 255, 255) !important;
+  transition: 400ms;
+}
+
+.planning_options_blue:hover {
+  background-color: rgb(212, 238, 249) !important;
+  transition: 500ms;
+}
+
+.planning_options_red {
+  border-color: white !important;
+  padding: 10px;
+  background-color: rgb(255, 255, 255) !important;
+  transition: 400ms;
+}
+
+.planning_options_red:hover {
+  background-color: rgb(245, 218, 218) !important;
+  transition: 700ms;
+}
+
+.socialmedia_hover {
+  fill: white;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  transition: 400ms;
+}
+
+.socialmedia_hover:hover {
+  background-color: rgb(133, 133, 133) !important;
+  transition: 700ms;
+}
+
+.realRounded {
+  border-radius: 25px !important;
+}
